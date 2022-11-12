@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body {
+  background-color: #212121;
+  font-family:'Fredoka One';
+}
+
+.container {
+  border-radius:0 0 10px 10px;
+  border-bottom: solid 2px white;
+  border-right:solid 2px white;
+  border-left:solid 2px white;
+  box-shadow: rgba(20, 255, 236) 0px 8px 24px;
+  background-color:#323232;
+}
+
+#todoList label{
+  width: 80%;
+}
+#todoList li{
+  margin-top: 10px;
+  list-style-type: none;
+}
+.completed{
+  padding:8px;
+  border-radius:8px;
+color:white;
+background-color:#212121;
+border:2px solid #14FFEC;
+}
+.uncompleted label{
+  padding:8px;
+background-color:#212121;
+border-radius:8px;
+  color: white;
+  text-decoration: line-through black;
+  border:2px solid #0D7377;
+}
+#todoList .btn{
+  margin-left: 5px;
+}
+
+.text-center {
+  color:white;
+  padding-top:10px;
+}
+
+.form-group {
+  color:#0D7377;
+  text-align:center;
+}
+
+span {
+  color:#14FFEC;
+}
+
+hr {
+  margin:auto;
+  height:3px;
+  width:250px;
+  color:white;
+}
+
+#addButton {
+  background-color:#55AAC0;
+  border:none;
+}
+
+#addButton:hover {
+  background-color:#448899;
+}
+
+h4 {
+  text-align:center;
+  padding-top:50px;
+  color:gray;
+}
+
+@media screen and (max-width:775px) {
+  #todoList .btn{
+    margin-top: 10px;
+  }
+}

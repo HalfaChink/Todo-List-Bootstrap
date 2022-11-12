@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <!-- DataAOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <title>Todo List App</title>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<div class="container" data-aos="fade-down">
+      <h2 class="text-center">Create Your To<span>Do</span> List</h2>
+      <div class="form-group">
+        <label for="itemInput">What Do You Want To Do Today?</label>
+        <input type="text" class="form-control mb-3 mt-1" name="" id="itemInput" />
+      </div>
+      <div class="tombol">
+        <button id="addButton" class="btn btn-primary mb-2">Add To List</button>
+        <button id="clearButton" class="btn btn-danger mb-2">Clear Todo List</button>
+        <hr>
+      </div>
+      <ul id="todoList">
+        
+      </ul>
+    </div>
+    <footer>
+      <h4 data-aos="zoom-in">Created By Recky</h4>
+    </footer>
+  <script  src="./script.js"></script>
+<!-- SCRIPT AOS -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+    AOS.init({
+        duration: 1650,
+        delay: 2,
+        offset: 60,
+    });
+</script>
+</body>
+</html>
